@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "python-standard-library-api",
+      "title": "Standard Library Web APIs",
+      "description": "Build a simple HTTP API using Python’s standard library and JSON handling.",
+      "path": "assignments/python-standard-library-api",
+      "dueDate": "2026-06-15",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
