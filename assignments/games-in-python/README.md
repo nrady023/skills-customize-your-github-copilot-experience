@@ -1,19 +1,47 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game Challenge
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a Hangman game in Python that uses string manipulation, loops, conditionals, and user input to let a player guess a hidden word.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Word Selection and Game Setup
 
-## ✅ Must Have's
+#### Description
+Create a predefined list of words and randomly select one word for the player to guess.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Define a list of possible words in the game.
+- Use `random.choice()` to select a secret word.
+- Initialize the game state to show underscores for each letter in the secret word.
+- Track the number of remaining incorrect guesses.
+
+### 🛠️ Player Guesses and Display Progress
+
+#### Description
+Allow the player to guess letters and update the display to show correct letters while hiding remaining letters.
+
+#### Requirements
+Completed program should:
+
+- Accept single-letter guesses from the player.
+- Reveal all matching letters in the current word display.
+- Keep an updated list of correct and incorrect guesses.
+- Show the current progress in `_ _ _` format after each guess.
+
+### 🛠️ Win/Lose Logic
+
+#### Description
+End the game when the player either guesses the entire word or runs out of attempts, and display an appropriate message.
+
+#### Requirements
+Completed program should:
+
+- End the game when the player has correctly guessed every letter.
+- End the game when the player uses all allowed incorrect attempts.
+- Display a win message if the player guesses the word.
+- Display a lose message and reveal the correct word if the player runs out of attempts.
